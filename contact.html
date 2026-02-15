@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="聯絡禾晴法律事務所 — 預約諮詢。地址、電話、電子信箱與營業時間。">
+  <title>聯絡我們 | 禾晴法律事務所</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">跳到主要內容</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">禾晴 <span>法律事務所</span></a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="開啟選單">
+        <span class="icon-menu" aria-hidden="true">&#9776;</span>
+        <span class="icon-close" aria-hidden="true">&times;</span>
+      </button>
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="about.html">關於我們</a></li>
+          <li><a href="team.html">律師團隊</a></li>
+          <li><a href="practice.html">專業領域</a></li>
+          <li><a href="cases.html">成功案例</a></li>
+          <li><a href="blog.html">法律專欄</a></li>
+          <li><a href="contact.html">聯絡我們</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-title">
+      <div class="container">
+        <h1>聯絡我們</h1>
+        <p class="text-muted mb-0">歡迎預約保密諮詢，我們在此傾聽您的需求。</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="content-sidebar">
+          <div class="content-main">
+            <h2>填寫表單</h2>
+            <p>請以下方表單預約諮詢，我們將於一個工作天內回覆。如有急件，請直接來電。</p>
+            <p class="text-muted"><strong>說明：</strong>本表單由第三方服務代管，提交內容將送達本所並予以保密。在未建立委任關係前，請勿填寫敏感機密資訊。</p>
+            <!-- 請將 action 改為您的表單服務網址（如 Formspree、Netlify Forms 等） -->
+            <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="post" id="contact-form">
+              <input type="hidden" name="_subject" value="禾晴法律事務所 — 聯絡表單">
+              <div class="form-group">
+                <label for="name">姓名 <span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="email">電子信箱 <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="phone">電話</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel">
+              </div>
+              <div class="form-group">
+                <label for="practice">諮詢領域</label>
+                <select id="practice" name="practice">
+                  <option value="">請選擇…</option>
+                  <option value="corporate">公司法與商業法律</option>
+                  <option value="litigation">訴訟與爭端解決</option>
+                  <option value="estate">遺產規劃與繼承</option>
+                  <option value="real-estate">不動產</option>
+                  <option value="employment">勞動法</option>
+                  <option value="other">其他</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">留言 <span aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">送出</button>
+            </form>
+          </div>
+          <aside>
+            <div class="card">
+              <div class="card-body">
+                <h3>事務所</h3>
+                <p>高雄市苓雅區四維四路199號12樓</p>
+                <p><a href="tel:+88675376862">07-5376862</a></p>
+                <h4>營業時間</h4>
+                <p>週一至週五：上午 8:30 – 下午 6:00</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>禾晴法律事務所</h4>
+          <p>為企業與個人提供專業法律服務。</p>
+        </div>
+        <div>
+          <h4>聯絡方式</h4>
+          <p>高雄市苓雅區四維四路199號12樓</p>
+          <p><a href="tel:+88675376862">07-5376862</a></p>
+        </div>
+        <div>
+          <h4>營業時間</h4>
+          <p>週一至週五：上午 8:30 – 下午 6:00</p>
+        </div>
+        <div>
+          <h4>快速連結</h4>
+          <p>
+            <a href="about.html">關於我們</a><br>
+            <a href="team.html">律師團隊</a><br>
+            <a href="practice.html">專業領域</a><br>
+            <a href="contact.html">聯絡我們</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 禾晴法律事務所 版權所有</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
