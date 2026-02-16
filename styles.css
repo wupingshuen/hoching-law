@@ -20,7 +20,7 @@
   --font-heading: "Cormorant Garamond", "Noto Serif TC", "Georgia", serif;
   --font-body: "Source Sans 3", "Noto Sans TC", "Helvetica Neue", sans-serif;
   --max-width: 1200px;
-  --header-height: 72px;
+  --header-height: 120px;
   --space-xs: 0.5rem;
   --space-sm: 1rem;
   --space-md: 1.5rem;
@@ -149,6 +149,14 @@ p {
 
 .logo span {
   color: var(--color-gold);
+}
+
+.logo-img {
+  display: block;
+  height: 104px;
+  width: auto;
+  max-width: 520px;
+  object-fit: contain;
 }
 
 /* --- Navigation --- */
